@@ -1,0 +1,56 @@
+body { 
+    background-color: #24353F;
+}
+h1  { 
+color:  #14A2B8;
+margin: 1rem 0 ;
+box-shadow: 0 0 0 0.10rem #14a2b84b;
+
+}
+
+.boxshadow { 
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.boxshadow span { 
+    cursor: pointer;
+    text-decoration:double;
+}
+.boxshadow p , a { 
+    color: white  !important;
+
+}
+@media all and (max-width: 768px) { 
+    .boxshadow { 
+        padding: 0 1rem;
+        margin: 3rem 0;
+    }
+}
+form, input, label, p {
+    color: white !important;
+}
+.form-floating > input:not(:focus):placeholder-shown + label {
+    background: transparent;
+}
+
+.form-floating > input + label:after {
+   background: transparent !important;
+   border-color: #14A2B8;
+   outline: 0;
+   box-shadow: 0 0 0 0.10rem #14a2b84b;
+ padding: 0.3rem;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #14A2B8;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #14a2b84b;
+  }
+  .btn:hover {
+    color:white !important;
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+
+  }
+

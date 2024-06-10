@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD System</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="boxshadow text-center w-75 m-auto d-flex align-items-center justify-content-center p-md-5 my-5">
+                <div class="content w-100">
+                    <h1 class="p-3">Smart Login System</h1>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control bg-transparent text-white" id="floatingInput" name="name" placeholder="name">
+                        <label for="floatingInput">Enter Your Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control bg-transparent text-white" id="floatingInput" name="email" placeholder="name@example.com">
+                        <label for="floatingInput">Enter Your Email</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control bg-transparent text-white" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Enter Password</label>
+                    </div>
+                    <button type="button" class="btn btn-outline-info w-100 my-5 m-auto">Sign Up</button>
+                    <p>Don’t have an account? <a href=""><span>Sign Up</span></a></p>
+                    <div id="error-message" style="display: none; color: red;"></div> <!-- Error message element -->
+                    <div id="success-message" style="display: none; color: green;"></div> <!-- Success message element -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/signup.js"></script>
+</body>
+</html>
